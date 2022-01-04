@@ -7,31 +7,18 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <!-- <link rel="pingback" href="https://seofy.wgl-demo.net/xmlrpc.php" /> -->
+
     <title>Sketchfox</title>
-    <script>
-      /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
-      if (typeof WebFontConfig === "undefined") {
-        WebFontConfig = new Object();
-      }
-      /* WGL CUSTOM TYPOGRAPHY FIX */
-      WebFontConfig["google"] = {
-        families: ["Nunito+Sans:400,800,700,600,"],
-      };
-      /* \ WGL CUSTOM TYPOGRAPHY FIX */
-      (function () {
-        var wf = document.createElement("script");
-        wf.src =
-          "https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js";
-        wf.type = "text/javascript";
-        wf.async = "true";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(wf, s);
-      })();
-    </script>
+
     <meta name="robots" content="noindex, nofollow" />
-    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <!-- <link
       rel="alternate"
       type="application/rss+xml"
       title="Seofy &raquo; Feed"
@@ -42,19 +29,12 @@
       type="application/rss+xml"
       title="Seofy &raquo; Comments Feed"
       href="../comments/feed/index.htm.xml"
-    />
+    /> -->
 
     <link
       rel="stylesheet"
       type="text/css"
       href="../wp-content/cache/wpfc-minified/m9mo9gy5/dczhb.css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="wgl-toolbar-google-font-css"
-      href="../css.css?family=Nunito+Sans%3A400%2C700&#038;display=swap&#038;ver=1.0.4"
-      type="text/css"
       media="all"
     />
 
@@ -1617,7 +1597,7 @@
       src="../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
       id="jquery-migrate-js"
     ></script>
-    <script
+    <!-- <script
       type="text/javascript"
       id="monsterinsights-frontend-script-js-extra"
     >
@@ -1631,8 +1611,8 @@
         hash_tracking: "false",
       };
       /* ]]> */
-    </script>
-    <script
+    </script> -->
+    <!-- <script
       type="text/javascript"
       src="../wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.js?ver=7.10.0"
       id="monsterinsights-frontend-script-js"
@@ -1644,7 +1624,7 @@
         security: "8ddc4ed8c4",
       };
       /* ]]> */
-    </script>
+    </script> -->
     <script
       type="text/javascript"
       src="../wp-content/plugins/WGL-toolbar/public/js/wgl-toolbar-public.min.js?ver=1.0.4"
@@ -1655,23 +1635,7 @@
       src="../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70"
       id="jquery-blockui-js"
     ></script>
-    <script type="text/javascript" id="wc-add-to-cart-js-extra">
-      /* <![CDATA[ */
-      var wc_add_to_cart_params = {
-        ajax_url: "\/wp-admin\/admin-ajax.php",
-        wc_ajax_url: "\/?wc-ajax=%%endpoint%%",
-        i18n_view_cart: "View cart",
-        cart_url: "https:\/\/seofy.wgl-demo.net\/cart\/",
-        is_cart: "",
-        cart_redirect_after_add: "no",
-      };
-      /* ]]> */
-    </script>
-    <!-- <script
-      type="text/javascript"
-      src="../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.5.1"
-      id="wc-add-to-cart-js"
-    ></script> -->
+
     <script type="text/javascript" id="wpgmza_data-js-extra">
       /* <![CDATA[ */
       var wpgmza_google_api_status = {
@@ -1930,16 +1894,7 @@
   </head>
 
   <body
-    class="
-      page-template-default page page-id-1056
-      wp-embed-responsive
-      theme-seofy
-      woocommerce-no-js
-      wpb-js-composer
-      js-comp-ver-6.6.0
-      vc_responsive
-      theme-gradient
-    "
+    class="page-template-default page page-id-1056 wp-embed-responsive theme-seofy woocommerce-no-js wpb-js-composer js-comp-ver-6.6.0 vc_responsive theme-gradient"
   >
     <header class="wgl-theme-header header_overlap">
       <div class="wgl-site-header mobile_header_custom">
@@ -1956,21 +1911,11 @@
             <div class="wgl-container">
               <div class="wgl-header-row_wrapper" style="height: 50px">
                 <div
-                  class="
-                    position_left_top
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_left
-                  "
+                  class="position_left_top header_side display_normal v_align_middle h_align_left"
                 >
                   <div class="header_area_container">
                     <div
-                      class="
-                        bottom_header
-                        html4_editor
-                        header_render_editor header_render
-                      "
+                      class="bottom_header html4_editor header_render_editor header_render"
                     >
                       <div class="wrapper">
                         <span style="font-size: 14px">
@@ -1995,11 +1940,7 @@
                       "
                     ></div>
                     <div
-                      class="
-                        bottom_header
-                        html3_editor
-                        header_render_editor header_render
-                      "
+                      class="bottom_header html3_editor header_render_editor header_render"
                     >
                       <div class="wrapper">
                         <span style="font-size: 14px">
@@ -2018,30 +1959,14 @@
                   </div>
                 </div>
                 <div
-                  class="
-                    position_center_top
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_left
-                  "
+                  class="position_center_top header_side display_normal v_align_middle h_align_left"
                 ></div>
                 <div
-                  class="
-                    position_right_top
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_right
-                  "
+                  class="position_right_top header_side display_normal v_align_middle h_align_right"
                 >
                   <div class="header_area_container">
                     <div
-                      class="
-                        bottom_header
-                        html1_editor
-                        header_render_editor header_render
-                      "
+                      class="bottom_header html1_editor header_render_editor header_render"
                     >
                       <div class="wrapper">
                         <div>
@@ -2049,7 +1974,6 @@
                             href="http://sketchfox.com/"
                             style="margin-right: 21px; font-size: 13px"
                           >
-
                             <i class="wgl-icon fa fa-twitter"></i>
                           </a>
                           <a
@@ -2084,11 +2008,7 @@
                       "
                     ></div>
                     <div
-                      class="
-                        bottom_header
-                        html5_editor
-                        header_render_editor header_render
-                      "
+                      class="bottom_header html5_editor header_render_editor header_render"
                     >
                       <div class="wrapper">
                         <a href="#"
@@ -2125,24 +2045,14 @@
             <div class="wgl-container">
               <div class="wgl-header-row_wrapper" style="height: 110px">
                 <div
-                  class="
-                    position_left_middle
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_left
-                  "
+                  class="position_left_middle header_side display_normal v_align_middle h_align_left"
                 >
                   <div class="header_area_container">
                     <div
-                      class="
-                        wgl-logotype-container
-                        logo-sticky_enable
-                        logo-mobile_enable
-                      "
+                      class="wgl-logotype-container logo-sticky_enable logo-mobile_enable"
                     >
                       <a href="https://sketchfox.com/">
-                        <h1 style="color:white;">Sketchfox</h1>
+                        <h1 style="color: white">Sketchfox</h1>
                         <!-- <img
                           class="default_logo"
                           src="../wp-content/uploads/2018/11/logo-white.png"
@@ -2154,61 +2064,32 @@
                   </div>
                 </div>
                 <div
-                  class="
-                    position_center_middle
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_center
-                  "
+                  class="position_center_middle header_side display_normal v_align_middle h_align_center"
                 >
                   <div class="header_area_container">
                     <nav class="primary-nav" style="height: 110px">
                       <ul id="menu-main" class="menu">
                         <li
                           id="menu-item-1311"
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            current-menu-ancestor
-                            current-menu-parent
-                            current_page_parent
-                            current_page_ancestor
-                            menu-item-has-children menu-item-1311
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1311"
                         >
                           <a href="#"
                             ><span
                               >Home<span class="menu-item_plus"></span></span
                           ></a>
-                
                         </li>
                         <li
                           id="menu-item-448"
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-448
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-448"
                         >
                           <a href="#"
                             ><span
                               >Pages<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
                           id="menu-item-923"
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-923
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-923"
                         >
                           <a href="#"
                             ><span
@@ -2216,33 +2097,19 @@
                                 class="menu-item_plus"
                               ></span></span
                           ></a>
-
                         </li>
                         <li
                           id="menu-item-70"
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-70
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70"
                         >
                           <a href="#"
                             ><span
                               >Blog<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
                           id="menu-item-175"
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-175
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-175"
                         >
                           <a href="#"
                             ><span
@@ -2250,31 +2117,19 @@
                                 class="menu-item_plus"
                               ></span></span
                           ></a>
-
                         </li>
                         <li
                           id="menu-item-1286"
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-1286
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1286"
                         >
                           <a href="#"
                             ><span
                               >Shop<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
                           id="menu-item-493"
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page menu-item-493
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"
                         >
                           <a href="#"
                             ><span
@@ -2293,13 +2148,7 @@
                   </div>
                 </div>
                 <div
-                  class="
-                    position_right_middle
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_right
-                  "
+                  class="position_right_middle header_side display_normal v_align_middle h_align_right"
                 >
                   <div class="header_area_container">
                     <div
@@ -2347,82 +2196,42 @@
             <div class="wgl-container">
               <div class="wgl-header-row_wrapper" style="height: 100px">
                 <div
-                  class="
-                    position_left_middle
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_left
-                  "
+                  class="position_left_middle header_side display_normal v_align_middle h_align_left"
                 >
                   <div class="header_area_container">
                     <div
-                      class="
-                        wgl-logotype-container
-                        logo-sticky_enable
-                        logo-mobile_enable
-                      "
+                      class="wgl-logotype-container logo-sticky_enable logo-mobile_enable"
                     >
                       <a href="#">
                         <h1>Sketchfox</h1>
-
                       </a>
                     </div>
                   </div>
                 </div>
                 <div
-                  class="
-                    position_center_middle
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_center
-                  "
+                  class="position_center_middle header_side display_normal v_align_middle h_align_center"
                 >
                   <div class="header_area_container">
                     <nav class="primary-nav" style="height: 100px">
                       <ul id="menu-main-1" class="menu">
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            current-menu-ancestor
-                            current-menu-parent
-                            current_page_parent
-                            current_page_ancestor
-                            menu-item-has-children menu-item-1311
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1311"
                         >
                           <a href="#"
                             ><span
                               >Home<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-448
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-448"
                         >
                           <a href="#"
                             ><span
                               >Pages<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-923
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-923"
                         >
                           <a href="#"
                             ><span
@@ -2430,31 +2239,17 @@
                                 class="menu-item_plus"
                               ></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-70
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70"
                         >
                           <a href="#"
                             ><span
                               >Blog<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-175
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-175"
                         >
                           <a href="#"
                             ><span
@@ -2462,29 +2257,17 @@
                                 class="menu-item_plus"
                               ></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-1286
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1286"
                         >
                           <a href="#"
                             ><span
                               >Shop<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page menu-item-493
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"
                         >
                           <a href="#"
                             ><span
@@ -2503,13 +2286,7 @@
                   </div>
                 </div>
                 <div
-                  class="
-                    position_right_middle
-                    header_side
-                    display_normal
-                    v_align_middle
-                    h_align_right
-                  "
+                  class="position_right_middle header_side display_normal v_align_middle h_align_right"
                 >
                   <div class="header_area_container">
                     <div
@@ -2560,46 +2337,23 @@
                     <nav class="primary-nav" style="height: 100px">
                       <ul id="menu-main-2" class="menu">
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            current-menu-ancestor
-                            current-menu-parent
-                            current_page_parent
-                            current_page_ancestor
-                            menu-item-has-children menu-item-1311
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1311"
                         >
                           <a href="#"
                             ><span
                               >Home<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-448
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-448"
                         >
                           <a href="#"
                             ><span
                               >Pages<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-923
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-923"
                         >
                           <a href="#"
                             ><span
@@ -2607,31 +2361,17 @@
                                 class="menu-item_plus"
                               ></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-70
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70"
                         >
                           <a href="#"
                             ><span
                               >Blog<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-175
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-175"
                         >
                           <a href="#"
                             ><span
@@ -2639,29 +2379,17 @@
                                 class="menu-item_plus"
                               ></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page
-                            menu-item-has-children
-                            menu-item-1286
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1286"
                         >
                           <a href="#"
                             ><span
                               >Shop<span class="menu-item_plus"></span></span
                           ></a>
-
                         </li>
                         <li
-                          class="
-                            menu-item
-                            menu-item-type-post_type
-                            menu-item-object-page menu-item-493
-                          "
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"
                         >
                           <a href="#"
                             ><span
@@ -2682,14 +2410,10 @@
                 <div class="position_center header_side">
                   <div class="header_area_container">
                     <div
-                      class="
-                        wgl-logotype-container
-                        logo-sticky_enable
-                        logo-mobile_enable
-                      "
+                      class="wgl-logotype-container logo-sticky_enable logo-mobile_enable"
                     >
                       <a href="https://sketchfox.com/">
-                        <h1 style="color:white;">Sketchfox</h1>
+                        <h1 style="color: white">Sketchfox</h1>
                         <!-- <img
                           class="logo-mobile"
                           src="../wp-content/uploads/2018/11/logo-white.png"
@@ -2730,7 +2454,6 @@
                         </form>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -2742,100 +2465,51 @@
                 <nav class="primary-nav">
                   <ul id="menu-main-3" class="menu">
                     <li
-                      class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page
-                        current-menu-ancestor
-                        current-menu-parent
-                        current_page_parent
-                        current_page_ancestor
-                        menu-item-has-children menu-item-1311
-                      "
+                      class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1311"
                     >
                       <a href="#"
                         ><span>Home<span class="menu-item_plus"></span></span
                       ></a>
-
                     </li>
                     <li
-                      class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page
-                        menu-item-has-children
-                        menu-item-448
-                      "
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-448"
                     >
                       <a href="#"
                         ><span>Pages<span class="menu-item_plus"></span></span
                       ></a>
-
                     </li>
                     <li
-                      class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page
-                        menu-item-has-children
-                        menu-item-923
-                      "
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-923"
                     >
                       <a href="#"
                         ><span
                           >Services<span class="menu-item_plus"></span></span
                       ></a>
-
                     </li>
                     <li
-                      class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page
-                        menu-item-has-children
-                        menu-item-70
-                      "
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70"
                     >
                       <a href="#"
                         ><span>Blog<span class="menu-item_plus"></span></span
                       ></a>
-
                     </li>
                     <li
-                      class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page
-                        menu-item-has-children
-                        menu-item-175
-                      "
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-175"
                     >
                       <a href="#"
                         ><span
                           >Portfolio<span class="menu-item_plus"></span></span
                       ></a>
-
                     </li>
                     <li
-                      class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page
-                        menu-item-has-children
-                        menu-item-1286
-                      "
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1286"
                     >
                       <a href="#"
                         ><span>Shop<span class="menu-item_plus"></span></span
                       ></a>
-
                     </li>
                     <li
-                      class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-493
-                      "
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"
                     >
                       <a href="#"
                         ><span
@@ -2855,13 +2529,7 @@
         <div class="row">
           <div id="main-content" class="wgl_col-12">
             <div
-              class="
-                vc_row
-                wpb_row
-                vc_row-fluid
-                add_mountain_rev_slider
-                vc_custom_1543332231082
-              "
+              class="vc_row wpb_row vc_row-fluid add_mountain_rev_slider vc_custom_1543332231082"
             >
               <div class="wpb_column vc_column_container vc_col-sm-12">
                 <div class="vc_column-inner">
@@ -4061,9 +3729,21 @@ l-29.9,855C-1400.5,2696.9-1394.3,2731.8-1381.2,2764.3z"
         </div>
       </div>
     </footer> -->
-     <a href="#" id="scroll_up"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-</svg></a>
+    <a href="#" id="scroll_up"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 15l7-7 7 7"
+        /></svg
+    ></a>
     <script type="text/javascript">
       window.RS_MODULES = window.RS_MODULES || {};
       window.RS_MODULES.modules = window.RS_MODULES.modules || {};
@@ -4090,14 +3770,8 @@ l-29.9,855C-1400.5,2696.9-1394.3,2731.8-1381.2,2764.3z"
         }
       })();
     </script>
-    <script type="text/html" id="wpb-modifications"></script>
-    <link
-      href="../css-1.css?family=Nunito+Sans:800%2C400%7CRaleway:400"
-      rel="stylesheet"
-      property="stylesheet"
-      media="all"
-      type="text/css"
-    />
+    <!-- <script type="text/html" id="wpb-modifications"></script> -->
+
     <script type="text/javascript">
       (function () {
         var c = document.body.className;
@@ -5295,20 +4969,20 @@ l-29.9,855C-1400.5,2696.9-1394.3,2731.8-1381.2,2764.3z"
       src="../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4"
       id="js-cookie-js"
     ></script>
-    <script type="text/javascript" id="woocommerce-js-extra">
+    <!-- <script type="text/javascript" id="woocommerce-js-extra">
       /* <![CDATA[ */
       var woocommerce_params = {
         ajax_url: "\/wp-admin\/admin-ajax.php",
         wc_ajax_url: "\/?wc-ajax=%%endpoint%%",
       };
       /* ]]> */
-    </script>
-    <script
+    </script> -->
+    <!-- <script
       type="text/javascript"
       src="../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.5.1"
       id="woocommerce-js"
-    ></script>
-    <script type="text/javascript" id="wc-cart-fragments-js-extra">
+    ></script> -->
+    <!-- <script type="text/javascript" id="wc-cart-fragments-js-extra">
       /* <![CDATA[ */
       var wc_cart_fragments_params = {
         ajax_url: "\/wp-admin\/admin-ajax.php",
@@ -5318,18 +4992,18 @@ l-29.9,855C-1400.5,2696.9-1394.3,2731.8-1381.2,2764.3z"
         request_timeout: "5000",
       };
       /* ]]> */
-    </script>
-    <script
+    </script> -->
+    <!-- <script
       type="text/javascript"
       src="../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.5.1"
       id="wc-cart-fragments-js"
-    ></script>
+    ></script> -->
     <script
       type="text/javascript"
       src="../wp-content/themes/seofy/js/theme-addons.js?ver=5.7.4"
       id="seofy-theme-addons-js"
     ></script>
-    <script type="text/javascript" id="seofy-theme-js-extra">
+    <!-- <script type="text/javascript" id="seofy-theme-js-extra">
       /* <![CDATA[ */
       var wgl_core = {
         ajaxurl: "https:\/\/seofy.wgl-demo.net\/wp-admin\/admin-ajax.php",
@@ -5343,7 +5017,7 @@ l-29.9,855C-1400.5,2696.9-1394.3,2731.8-1381.2,2764.3z"
         unlike: "Unlike",
       };
       /* ]]> */
-    </script>
+    </script> -->
     <script
       type="text/javascript"
       src="../wp-content/themes/seofy/js/theme.js?ver=5.7.4"
